@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ServletValidador</servlet-name>
+  	<display-name>ServletValidador</display-name>
+  	<description></description>
+  	<servlet-class>controlador.ServletValidador</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>servletRegistraMascota</servlet-name>
+  	<display-name>servletRegistraMascota</display-name>
+  	<description></description>
+  	<servlet-class>controlador.servletRegistraMascota</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletRegistrarDueño</servlet-name>
+  	<display-name>ServletRegistrarDueño</display-name>
+  	<description></description>
+  	<servlet-class>controlador.ServletRegistrarDueño</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletMascota</servlet-name>
+  	<display-name>ServletMascota</display-name>
+  	<description></description>
+  	<servlet-class>controlador.ServletMascota</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletDueno</servlet-name>
+  	<display-name>ServletDueno</display-name>
+  	<description></description>
+  	<servlet-class>controlador.ServletDueno</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ServletValidador</servlet-name>
+  	<url-pattern>/ServletValidador</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>servletRegistraMascota</servlet-name>
+  	<url-pattern>/servletRegistraMascota</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletRegistrarDueño</servlet-name>
+  	<url-pattern>/ServletRegistrarDueño</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletMascota</servlet-name>
+  	<url-pattern>/ServletMascota</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletDueno</servlet-name>
+  	<url-pattern>/ServletDueno</url-pattern>
+  </servlet-mapping>
+</web-app>
